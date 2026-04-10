@@ -218,7 +218,7 @@ const CoinForm = ({ onSuccess, showToast, editingCoin, setEditingCoin }) => {
                   <Button
                      variant="light"
                      onClick={() => fileInputRef.current.click()}
-                     className="d-flex align-items-center justify-content-center gap-2 w-50 w-md-auto mx-auto mx-md-0 border border-primaryDark bs-dark"
+                     className="d-flex align-items-center justify-content-center gap-2 w-50 w-md-auto mx-auto mx-md-0 border border-primaryDark bs-dark mb-3"
                   >
                      <FaCamera className='fs-3'/>
                      <p className='m-0 d-none d-lg-block'>Télécharger une image</p>
@@ -237,7 +237,7 @@ const CoinForm = ({ onSuccess, showToast, editingCoin, setEditingCoin }) => {
                   </div>
                )}
 
-               <Button type="submit" disabled={loading} variant='primary' className='w-50 w-md-content mb-2 mx-auto mx-md-0 border border-primaryDark bs-dark '>
+               <Button type="submit" disabled={loading} variant='primary' className='w-50 w-md-content mb-3 mx-auto mx-md-0 border border-primaryDark bs-dark '>
                   {loading 
                      ? 'Saving...' 
                      : editingCoin 
