@@ -155,9 +155,10 @@ const CoinForm = ({ onSuccess, showToast, editingCoin, setEditingCoin }) => {
 
             <Form onSubmit={handleSubmit} className='d-flex flex-column'>
                <Form.Group className="mb-3">
+                  <Form.Label className='mb-1'>Lieu</Form.Label>
                   <Form.Control
                   name="place"
-                  placeholder="Place"
+                  placeholder="Lieu"
                   value={formData.place}
                   onChange={handleChange}
                   required
@@ -166,9 +167,10 @@ const CoinForm = ({ onSuccess, showToast, editingCoin, setEditingCoin }) => {
                </Form.Group>
 
                <Form.Group className="mb-3">
+                  <Form.Label className='mb-1'>Modèle</Form.Label>
                   <Form.Control
                   name="model"
-                  placeholder="Model"
+                  placeholder="Modèle"
                   value={formData.model}
                   onChange={handleChange}
                   required
@@ -177,6 +179,7 @@ const CoinForm = ({ onSuccess, showToast, editingCoin, setEditingCoin }) => {
                </Form.Group>
 
                <Form.Group className="mb-3">
+                  <Form.Label className='mb-1'>Description</Form.Label>
                   <Form.Control
                   name="description"
                   placeholder="Description"
@@ -187,10 +190,11 @@ const CoinForm = ({ onSuccess, showToast, editingCoin, setEditingCoin }) => {
                </Form.Group>
 
                <Form.Group className="mb-3">
+                  <Form.Label className='mb-1'>Année</Form.Label>
                   <Form.Control
                   name="year"
                   type="number"
-                  placeholder="Year"
+                  placeholder="Année"
                   value={formData.year}
                   onChange={handleChange}
                   required
