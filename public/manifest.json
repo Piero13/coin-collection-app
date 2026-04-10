@@ -3,18 +3,18 @@
   "short_name": "Ma Collection De Pièces",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#F8F9FB",
-  "theme_color": "#6b8fce",
+  "background_color": "#222222",
+  "theme_color": "#F8F9FB",
   "description": "Application web our collectionneurs de pièces de monnaie.",
   "icons": [
     {
       "src": "logo_192.png",
-      "sizes": "192x193",
+      "sizes": "192x192",
       "type": "image/png"
     },
     {
       "src": "logo_350.png",
-      "sizes": "348x350",
+      "sizes": "350x350",
       "type": "image/png"
     }
   ]
