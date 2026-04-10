@@ -228,6 +228,7 @@ const CoinForm = ({ onSuccess, showToast, editingCoin, setEditingCoin }) => {
                {preview && (
                   <div className="mb-3 d-flex justify-content-center">
                      <img
+                        loading='lazy'
                         src={preview}
                         alt="preview"
                         style={{ objectFit: 'cover' }}

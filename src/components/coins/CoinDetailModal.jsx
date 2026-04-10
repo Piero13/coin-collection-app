@@ -25,6 +25,8 @@ const CoinDetailModal = ({ show, coin, onClose }) => {
           {loading && <Spinner animation="border" />}
 
           <Image
+            loading='lazy'
+            alt={`Pièce de ${coin.place}, modèle${coin.model} de l'année ${coin.year}`}
             key={coin.image_url} // 🔥 IMPORTANT
             src={coin.image_url}
             fluid
@@ -40,8 +42,8 @@ const CoinDetailModal = ({ show, coin, onClose }) => {
       </Modal.Body>
 
       <Modal.Footer className='d-flex flex-column align-items-start bg-dark'>
-        <p className='text-light'><strong className='text-light'>Place :</strong> {coin.place}</p>
-        <p className='text-light'><strong className='text-light'>Year :</strong> {coin.year}</p>
+        <p className='text-light'><strong className='text-light'>Lieu :</strong> {coin.place}</p>
+        <p className='text-light'><strong className='text-light'>Année :</strong> {coin.year}</p>
         <p className='text-light'><strong className='text-light'>Description :</strong> {coin.description || '-'}</p>
       </Modal.Footer>
     </Modal>
