@@ -25,8 +25,7 @@ const CoinDetailModal = ({ show, coin, onClose }) => {
           {loading && <Spinner animation="border" />}
 
           <Image
-            loading='lazy'
-            alt={`Pièce de ${coin.place}, modèle${coin.model} de l'année ${coin.year}`}
+            alt={coin.model}
             key={coin.image_url} // 🔥 IMPORTANT
             src={coin.image_url}
             fluid
