@@ -67,8 +67,9 @@ const Login = () => {
               }}
               onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
               onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+              className='d-flex justify-content-center align-items-center'
             >
-              {showPassword ? <FaEyeSlash /> : <FaEye />}
+              {showPassword ? <FaEye /> : <FaEyeSlash />}
             </span>
           </div>
         </Form.Group>
