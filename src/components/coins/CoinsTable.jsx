@@ -39,7 +39,7 @@ const CoinsTable = ({ coins, showToast, onRefresh, setEditingCoin, showActions =
 
    return (
       <>
-         <Card className='border-primaryDark'>
+         <Card className='border-primaryDark bg-gradient-darkmix'>
             <Card.Body className='p-2'>
                <h2 className='fs-5 text-center text-md-start mb-2'>Liste des pièces</h2>
 

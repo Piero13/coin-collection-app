@@ -29,7 +29,7 @@ const Login = () => {
     <Container className="pt-5">
       <h2 className='text-center mb-4'>Admin Login</h2>
 
-      <Form onSubmit={handleSubmit} className='w-80 w-md-16 w-lg-18 mx-auto border border-primaryDark p-3 rounded d-flex flex-column'>
+      <Form onSubmit={handleSubmit} className='w-80 w-md-16 w-lg-18 mx-auto border border-primaryDark p-3 rounded d-flex flex-column bg-gradient-darkmix'>
         <Form.Group className="mb-3">
           <Form.Label>Email</Form.Label>
           <Form.Control

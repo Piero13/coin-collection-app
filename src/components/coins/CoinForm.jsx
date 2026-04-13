@@ -149,7 +149,7 @@ const CoinForm = ({ onSuccess, showToast, editingCoin, setEditingCoin }) => {
 
    return (
       <section className='mb-4 mb-md-0'>
-         <Card className='border-primaryDark'>
+         <Card className='border-primaryDark bg-gradient-darkmix'>
             <Card.Body>
             <h5 className='mb-3'>Ajouter une pièce</h5>
 
